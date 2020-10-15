@@ -1,4 +1,6 @@
-const map = L.map('mapid').setView([-1.460325,-48.4796917], 15.5);
+//revome zoom control
+const removeZoom = {zoomControl:false}
+const map = L.map('mapid', removeZoom).setView([-1.460325,-48.4796917], 15.5);
 
 // The map tileLayer
 L.tileLayer(
