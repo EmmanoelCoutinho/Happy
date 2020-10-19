@@ -33,6 +33,9 @@ aside.sidebar footer button:hover {
 .with-sidebar {
   padding-left: 110px;
 }
+main {
+  flex: 1;
+}
 
 /* Details */
 
@@ -190,5 +193,5 @@ aside.sidebar footer button:hover {
   background: #36cf82;
 }
 .primary-button img {
-  margin-right: 1.5rem;
+  margin-right: 1.6rem;
 }

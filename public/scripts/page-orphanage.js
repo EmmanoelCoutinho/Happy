@@ -30,3 +30,25 @@ const icon = L.icon({
 L.marker([-1.460325,-48.4796917],{ icon })
 .addTo(map)
 
+// image gallery //
+
+function selectImage(event){
+    
+    const button = event.currentTarget
+
+
+    // remove all  classes .active
+    const buttons = document.querySelectorAll(".images button")
+    // arrow function
+    buttons.forEach((button) => {
+        button.classList.remove("active")
+    })
+    //select clicked image
+    const image = button.children[0]
+    const imageContainer = document.querySelector(".orphanage-details > img")
+    // update container image
+    imageContainer.src = image.src
+
+    //add .active for selected button
+    button.classList.add("active")
+}
