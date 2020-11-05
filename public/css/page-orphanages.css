@@ -38,7 +38,7 @@ a.create-orphanage {
   bottom: 4rem;
   right: 4rem;
 
-  z-index: 10;
+  z-index: 100;
 
   width: 6.4rem;
   height: 6.4rem;
@@ -53,7 +53,7 @@ a.create-orphanage {
   transition: background-color 200ms;
 }
 a.create-orphanage:hover {
-  background: #fff;
+  background: #17d6eb;
 }
 .leaflet-popup-content-warpper {
   background: rgba(255, 255, 255, 0.8);
@@ -90,5 +90,5 @@ a.create-orphanage:hover {
 .leaflet-container {
   font: 700 2rem/1 "Nunito", sans-serif;
 
-  z-index: 5;
+  z-index: 1;
 }

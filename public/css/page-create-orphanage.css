@@ -1,0 +1,15 @@
+#page-create-orphanage {
+  display: flex;
+  min-width: 100vh;
+}
+main {
+  flex: 1;
+}
+/* map settings */
+.map-container .leaflet-container {
+  border-radius: 2rem 2rem 0 0;
+}
+.map-container footer {
+  background-color: #f5f8fa;
+  border-radius: 0 0 2rem 2rem;
+}
