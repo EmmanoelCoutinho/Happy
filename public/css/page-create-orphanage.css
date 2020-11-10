@@ -13,3 +13,7 @@ main {
   background-color: #f5f8fa;
   border-radius: 0 0 2rem 2rem;
 }
+
+.new-upload + .new-upload {
+  margin-top: 2.4rem;
+}
